@@ -1,0 +1,6 @@
+/*Reset 기본 스타일 제거*/
+body, h1, p, button{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
