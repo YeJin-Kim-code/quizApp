@@ -4,3 +4,57 @@ body, h1, p, button{
     padding:0;
     box-sizing: border-box;
 }
+
+/*전체 배경 및 텍스트 스타일*/
+body{
+    font-family:Arial, sans-serif;/*폰트*/
+    background:linear-gradient(to bottom, #6a11cb, #2575fc);/*그라데이션*/
+    color: white;
+    text-align: center;
+    min-height: 100vh;/*화면의 세로길이를 100프로채움*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 400px;
+    padding:20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;/*컨테이너의 모서리를 둥글게*/
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);/*컨테이너에 그림자 추가*/
+}
+
+header h1{
+    font-size:2em;/*기본 글자 크기에 2배*/
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display:block;/*버튼이 한줄 전체를 차지하도록 설정*/
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 1em;
+    color: white;
+    background: #4caf50;
+    border: none;
+    cursor: pointer; /*버튼 위에 마우스를 올리면 손가락 모양 커서 설정*/
+    transition: background 0.3s ease;/*배경 색이 부드럽게 변하도록 효과추가*/
+}
+
+.btn:hover{
+    background: #45a049;/*마우스를 올리면 배경색이 짙은 녹색으로 바뀜*/
+}
+
+footer p 
+{
+    font-size: 0.8em;
+    margin-top: 20px;
+    opacity:0.7;
+}
